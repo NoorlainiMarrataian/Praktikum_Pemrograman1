@@ -1,0 +1,17 @@
+r=int(input())
+t=int(input())
+v=22*r*r*t/7
+l=2*22*r*(r+t)/7
+k=2*22*r/7
+print("Volume = %.2f"%v)
+print("Luas = %.2f"%l)
+print("Keliling = %.2f\n"%k)
+rr, tt=input().split()
+rr=float(rr)
+tt=float(tt)
+vv=22*rr*rr*tt/7
+ll=2*22*rr*(rr+tt)/7
+kk=2*22*rr/7
+print("Volume = %.2f"%vv)
+print("Luas = %.2f"%ll)
+print("Keliling = %.2f\n"%kk)
