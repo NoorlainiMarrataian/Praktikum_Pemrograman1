@@ -2,7 +2,7 @@
 
 int main()
 {
-    char na[19], ni[13], k[1], ttl[18], a[39], h[7], no[12];
+    char na[30], ni[30], k[30], ttl[30], a[40], h[30], no[30];
 
     printf("Nama                :");
     gets(na);
@@ -18,5 +18,16 @@ int main()
     gets(h);
     printf("No. HP              :");
     gets(no);
+
+    printf("\n");
+    printf("Nama                :%s\n", na);
+    printf("NIM                 :%s\n", ni);
+    printf("Kelas Paralel       :%s\n", k);
+    printf("Tempat/Tanggal Lahir:%s\n", ttl);
+    printf("Alamat              :%s\n", a);
+    printf("Hobby               :%s\n", h);
+    printf("No. HP              :%s\n", no);
     return 0;
 }
+
+
